@@ -36,6 +36,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.criarButron = new System.Windows.Forms.Button();
             this.linkEsqueceuSenha = new System.Windows.Forms.LinkLabel();
+            this.mostrarSenhaButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,6 +46,7 @@
             this.usuarioBox.Name = "usuarioBox";
             this.usuarioBox.Size = new System.Drawing.Size(199, 20);
             this.usuarioBox.TabIndex = 0;
+            this.usuarioBox.UseWaitCursor = true;
             this.usuarioBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // senhaBox
@@ -54,6 +56,7 @@
             this.senhaBox.Size = new System.Drawing.Size(199, 20);
             this.senhaBox.TabIndex = 1;
             this.senhaBox.UseSystemPasswordChar = true;
+            this.senhaBox.UseWaitCursor = true;
             this.senhaBox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // entrarButton
@@ -65,6 +68,7 @@
             this.entrarButton.TabIndex = 2;
             this.entrarButton.Text = "Entrar";
             this.entrarButton.UseVisualStyleBackColor = false;
+            this.entrarButton.UseWaitCursor = true;
             this.entrarButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // usuarioLabel
@@ -78,6 +82,7 @@
             this.usuarioLabel.Size = new System.Drawing.Size(50, 13);
             this.usuarioLabel.TabIndex = 3;
             this.usuarioLabel.Text = "Usuario";
+            this.usuarioLabel.UseWaitCursor = true;
             this.usuarioLabel.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // senhaLabel
@@ -91,10 +96,13 @@
             this.senhaLabel.Size = new System.Drawing.Size(43, 13);
             this.senhaLabel.TabIndex = 4;
             this.senhaLabel.Text = "Senha";
+            this.senhaLabel.UseWaitCursor = true;
             this.senhaLabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel1.Controls.Add(this.mostrarSenhaButton);
             this.panel1.Controls.Add(this.criarButron);
             this.panel1.Controls.Add(this.linkEsqueceuSenha);
             this.panel1.Controls.Add(this.senhaLabel);
@@ -106,6 +114,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(776, 426);
             this.panel1.TabIndex = 0;
+            this.panel1.UseWaitCursor = true;
             // 
             // criarButron
             // 
@@ -116,6 +125,7 @@
             this.criarButron.TabIndex = 6;
             this.criarButron.Text = "Criar Conta";
             this.criarButron.UseVisualStyleBackColor = false;
+            this.criarButron.UseWaitCursor = true;
             this.criarButron.Click += new System.EventHandler(this.button2_Click);
             // 
             // linkEsqueceuSenha
@@ -128,7 +138,20 @@
             this.linkEsqueceuSenha.TabIndex = 5;
             this.linkEsqueceuSenha.TabStop = true;
             this.linkEsqueceuSenha.Text = "Esqueci minha senha";
+            this.linkEsqueceuSenha.UseWaitCursor = true;
             this.linkEsqueceuSenha.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // mostrarSenhaButton
+            // 
+            this.mostrarSenhaButton.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.mostrarSenhaButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.mostrarSenhaButton.Location = new System.Drawing.Point(467, 157);
+            this.mostrarSenhaButton.Name = "mostrarSenhaButton";
+            this.mostrarSenhaButton.Size = new System.Drawing.Size(52, 20);
+            this.mostrarSenhaButton.TabIndex = 7;
+            this.mostrarSenhaButton.Text = "Mostrar";
+            this.mostrarSenhaButton.UseVisualStyleBackColor = false;
+            this.mostrarSenhaButton.Click += new System.EventHandler(this.toggleSenha_Click);
             // 
             // Login
             // 
@@ -162,6 +185,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button criarButron;
         private System.Windows.Forms.LinkLabel linkEsqueceuSenha;
+        private System.Windows.Forms.Button mostrarSenhaButton;
     }
 }
 

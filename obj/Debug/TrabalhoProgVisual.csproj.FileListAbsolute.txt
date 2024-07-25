@@ -1,0 +1,10 @@
+C:\Users\windows_mateus\Documents\trabalhos\TrabalhoProgVisual\bin\Debug\TrabalhoProgVisual.exe.config
+C:\Users\windows_mateus\Documents\trabalhos\TrabalhoProgVisual\bin\Debug\TrabalhoProgVisual.exe
+C:\Users\windows_mateus\Documents\trabalhos\TrabalhoProgVisual\bin\Debug\TrabalhoProgVisual.pdb
+C:\Users\windows_mateus\Documents\trabalhos\TrabalhoProgVisual\obj\Debug\TrabalhoProgVisual.csproj.AssemblyReference.cache
+C:\Users\windows_mateus\Documents\trabalhos\TrabalhoProgVisual\obj\Debug\TrabalhoProgVisual.Login.resources
+C:\Users\windows_mateus\Documents\trabalhos\TrabalhoProgVisual\obj\Debug\TrabalhoProgVisual.Properties.Resources.resources
+C:\Users\windows_mateus\Documents\trabalhos\TrabalhoProgVisual\obj\Debug\TrabalhoProgVisual.csproj.GenerateResource.cache
+C:\Users\windows_mateus\Documents\trabalhos\TrabalhoProgVisual\obj\Debug\TrabalhoProgVisual.csproj.CoreCompileInputs.cache
+C:\Users\windows_mateus\Documents\trabalhos\TrabalhoProgVisual\obj\Debug\TrabalhoProgVisual.exe
+C:\Users\windows_mateus\Documents\trabalhos\TrabalhoProgVisual\obj\Debug\TrabalhoProgVisual.pdb
